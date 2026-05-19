@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --color-sandstone-300: #e8dcc4;
+  --color-sandstone-400: #d6c39a;
+  --color-sandstone-500: #c1a661;
+  --color-sandstone-600: #a38743;
+  --color-sandstone-700: #826831;
+  
+  --color-charcoal-800: #27272a; /* zinc-800 */
+  --color-charcoal-900: #18181b; /* zinc-900 */
+  --color-charcoal-950: #0f0f12; /* custom deep zinc */
+}
+
+body {
+  margin: 0;
+  background-color: var(--color-charcoal-950);
+  color: #e4e4e7; /* zinc-200 */
+  font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Elegant selection color */
+::selection {
+  background-color: rgba(193, 166, 97, 0.25);
+  color: #fff;
+}
+
